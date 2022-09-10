@@ -1,0 +1,12 @@
+.widgetTemplate {
+  font-weight: 100;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.clock {
+  color: blue;
+}
