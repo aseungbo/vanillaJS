@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vamos Challenge</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="src/css/loginTemplate.css" />
+    <link rel="stylesheet" href="src/css/widgetTemplate.css" />
+    <link rel="stylesheet" href="src/css/todoTemplate.css" />
+  </head>
+
+  <body>
+    <div class="widgetTemplate">
+      <span class="clock"></span>
+    </div>
+    <div class="loginTemplate">
+      <h1 class="greeting hidden"></h1>
+      <form class="loginForm hidden">
+        <input class="loginInput" type="text" placeholder="Type your Name" />
+      </form>
+    </div>
+    <div class="todoTemplate hidden">
+      <form class="todoForm">
+        <input class="todoInput" type="text" placeholder="Type your todo" />
+        <ul class="todoList"></ul>
+      </form>
+    </div>
+    <script src="src/js/widgetTemplate.js"></script>
+    <script src="src/js/loginTemplate.js"></script>
+    <script src="src/js/todoTemplate.js"></script>
+  </body>
+</html>
