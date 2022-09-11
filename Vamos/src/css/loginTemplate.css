@@ -4,10 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: whitesmoke;
 }
 
 .greeting {
-  color: gray;
+  color: whitesmoke;
 }
 
 .hidden {

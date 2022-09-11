@@ -15,7 +15,7 @@ function onLoginSumbit(event) {
 }
 
 function paintGreeting(username) {
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `Hola  \n${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
